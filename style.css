@@ -1,0 +1,283 @@
+/* Boiler plate code  starts */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "General Sans";
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Boiler plate styling ends */
+
+#minicircle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+    border-radius: 50%;
+
+}
+
+/* main web container styling starts*/
+
+#main {
+    width: 100%;
+    background-color: black;
+}
+
+/* main web container styling ends*/
+
+
+/* hero section styling starts*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    position: relative;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+}
+
+#nav a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#heading {
+    margin-top: 90px;
+}
+
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+
+#heading h1 {
+    margin-left: 30px;
+    line-height: 1;
+    opacity: 0.6;
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+#heading #secondh1 {
+    margin-left: 230px;
+}
+
+.blocktext {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.blocktext h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
+}
+
+#extraheadings {
+    display: flex;
+    flex-direction: column;
+    align-items: end;    
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#extraheadings h5 {
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 0.5vw;
+    font-size: 1vw;
+}
+
+#hero-footer {
+    width: 100%;
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#hero-footer #iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#hero-footer .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+/* hero section styling ends*/
+
+
+/* second section styling starts*/
+
+#second {
+    width: 100%;
+    color: #fff;
+    padding-right: 10vw;
+    height: 100vh;
+    padding-top: 200px;
+    background-color: black;
+}
+
+.elem {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    font-size: 7.6vw;
+    opacity: .7;
+}
+
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+/* second section styling ends*/
+
+/* about section styling starts*/
+
+#about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    color: #fff;
+    background-color: black;
+}
+
+#about img {
+    width: 200px;
+}
+
+#text-about {
+    width: 25rem;
+}
+
+#text-about h5 {
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#text-about p {
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#text-about a {
+    text-decoration: none;
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* about section styling ends*/
+
+/* subscribe section starts */
+
+#subscribe{
+    background-color:black ;
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 3vw;
+}
+
+#subscribe h5{
+    opacity: .6;    
+}
+
+#subscribe h3{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+/* subscribe section ends */
+
+
+#footer {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footer-left {
+    display: flex;
+    gap:20px ;
+}
+
+#footer-right {
+    display: flex;
+    gap: 30px;
+}
+
+#footer a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
