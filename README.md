@@ -1,4 +1,4 @@
-# Award-Winning-website-clone
+# Award-winning-website-clone
 I have built a clone of an award-winning website clone using front-end web technologies in this repository.
 
 ## Tech Stack.
