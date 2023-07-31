@@ -15,4 +15,9 @@ Suppose you want to run this project. You have to run the index.html.
 2. For icons I have used Remix icons.
 
 ## Preview of Project.
-<video src="" autoplay ></video>
+![image](https://github.com/MuhammadShakir-dev/Award-winning-website-clone/assets/84896803/76d7504b-5324-4912-aa2a-36e52b572e57)
+![image](https://github.com/MuhammadShakir-dev/Award-winning-website-clone/assets/84896803/30bfdb2e-9846-4fd5-b156-d580be7134c8)
+![image](https://github.com/MuhammadShakir-dev/Award-winning-website-clone/assets/84896803/a1770f52-2e20-41fc-a80d-172e7c64628f)
+
+
+
